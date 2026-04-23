@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#F5F7FA] text-gray-900;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply bg-[#00C27A] text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition;
+  }
+  
+  .prose-custom {
+    @apply prose prose-lg max-w-none;
+  }
+  
+  .prose-custom h1 {
+    @apply text-3xl font-bold mb-4 text-[#0A1F44];
+  }
+  
+  .prose-custom h2 {
+    @apply text-2xl font-bold mt-8 mb-4 text-[#0A1F44];
+  }
+  
+  .prose-custom p {
+    @apply mb-4 text-gray-700 leading-relaxed;
+  }
+  
+  .prose-custom img {
+    @apply rounded-lg shadow-md my-6;
+  }
+}
+
