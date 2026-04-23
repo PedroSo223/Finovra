@@ -1,5 +1,0 @@
-cat > .babelrc << 'EOF'
-{
-  "presets": ["next/babel"]
-}
-EOF
